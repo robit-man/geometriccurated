@@ -1,65 +1,35 @@
 <template>
   <div class="full-wrapper">
-<!--  <div class="cornerbox" style="padding-top:2rem;padding-right:2rem;margin-left:auto;">
-      <div class="button connectwallet">CONNECT WALLET</div>
-</div>-->
 
-<div class="row" style="margin:auto;">
-
-
-    <div class="gladiators">
-      <img src="~/@/assets/muscle_guy_sil.png" alt="">
-    <img class="nodesktop" src="~/@/assets/fat_guy_sil.png" alt="">
-
-    </div>
-
-    <div class="whitelist" style="width:512px;max-width:calc(100vw - 2rem);margin:auto;"> 
-     <h1 class="parallaxtop">CHICKEN GLADIATORS</h1><br>
-      <h2 style="">10,000 Unique NFTs <br>Prepare for Battle in the <b>P2E</b> Arena!</h2><br>
-        <div class="gladiators2">
-      <img src="~/@/assets/muscle_guy_sil.png" alt="">
-    <img src="~/@/assets/fat_guy_sil.png" alt="">
-
-    </div>
-     <h1 style="">OG Whitelist: <b style="color:indianred;"><br class="nodesktop">OPEN NOW!</b></h1><br>
-<p>
-           Only 100 Spots Max
-</p>    <br>
-
-     <div class="button joinbutton" >JOIN WHITELIST</div>
-     <br>
-     <br>
-     <h2>CLOSES IN: <br>
-        <Countdown deadline="April 1, 2022"></Countdown>    </h2>
-
-        <br>
-        <br>
-<p>
-    Watch our social for further updates... 
-    <br><br></p>
-    
-    <div style="display:flex;margin:auto;flex-flow:row;justify-content:center;">
-    <a target="_blank" href="https://twitter.com/ChickenGladsNFT"><img class="socialicon" src="~/@/assets/twitter.svg" alt=""></a>
-    <a target="_blank" href="https://discord.gg/hXGhBRrcMn"><img class="socialicon" src="~/@/assets/discord.svg" alt=""></a>
+    <div class="hero" style="min-height:100vh; display:flex;flex-flow:column;justify-content:center;padding-top:4rem;padding-bottom:4rem;">
+      <div class="title" style=" margin:auto;text-align:center;font-size:7rem;margin-bottom:0rem;">
+      <h1><b style="font-size:12rem;line-height:0.8;">THE</b><br><b style="font-size:6rem;line-height:0.8;">CEDAR</b><br><b style="font-size:6rem;line-height:0.8;">BEARD</b><br><b style="font-size:3.1rem;line-height:0.8;">COLLECTION</b></h1>
+      </div>
+      <div class="subtitle" style="margin:auto;margin-top:2rem;max-width:512px;padding-top:1rem;margin-bottom:0rem;">
+      <h3 style="text-align:center;width:512px;margin:auto;">A collection of original pieces manifested by Greg Cedarbeard</h3>
+      </div>
+      <div class="cta" style="margin:auto;margin-top:4rem;"><div class="button" style="border-radius:0.25rem;border:2px solid white;padding:0.5rem 1rem;"><h3>MANIFEST</h3></div></div>
     
     </div>
-        <br>
 
 
 
+
+    <div class="bio">
+
+      <div class="title">
+        <h1 style="text-align:center;">The Cedarbeard Lore</h1>
+      </div>
+      <div class="desc" style="padding-top:4rem;max-width:720px;margin:auto;">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      </div>
+      
     </div>
-    <div class="gladiators" >
-    <img class="nomobile" src="~/@/assets/fat_guy_sil.png" alt="">
 
-    </div>
 
-    <br>
-    <br>
+    <div class="row"></div>
 
-</div>
-
-<div class="about-text">
-    </div>
 
 
     </div>
@@ -67,7 +37,6 @@
 
 <script>
 import { mapState, mapActions } from 'vuex';
-import Countdown from 'vuejs-countdown'
 export default {
   data() {
     return {
@@ -79,14 +48,14 @@ export default {
     };
   },
  components: {
-   Countdown,
     
   },
 };
 </script>
 <style scoped>
 h2{font-size:1.5rem;}
-p{max-width:calc(100vw - 4rem);margin:auto;}
+p{max-width:calc(100vw - 4rem);
+margin:auto;}
 .parallax-card.front{
     width: max-content!important;
     height: fit-content!important;min-height:200px;}
