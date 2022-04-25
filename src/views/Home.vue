@@ -13,20 +13,21 @@
       </div>
 
       <div class="display-wrapper" style="display:flex;flex-flow:wrap;margin-top:2rem;">
-     
+     <a href="https://opensea.io/collection/prismnft" target="_blank">
         <div class="artbox" style="">
           <div class="art" style="">
             <img src="https://lh3.googleusercontent.com/XlTCNr7I3fQO5V42WqMRjl8KCS3NDT_EN9wOSrAr2e4Mxe6JnfBJMbeIEm_cZbkuutzWFSuEMxqJBVKw1aqEa62LRjVH1OYgDfRbjpk=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >Prism NFT // 100 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >ART COLLECTION BY SAWYER KOTOWSKI</p>
 
           </div>
 
         </div>
+      </a>
 
-
+     <a href="https://opensea.io/collection/lensesnft" target="_blank">
 
          <div class="artbox" style="">
           <div class="art" style="">
@@ -34,14 +35,15 @@
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >Lenses NFT // 50 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >ART COLLECTION BY SAWYER KOTOWSKI</p>
 
           </div>
 
         </div>
-
+</a>
         
 
+     <a href="https://opensea.io/collection/juniperantaresnft" target="_blank">
 
          <div class="artbox" style="">
           <div class="art" style="">
@@ -49,14 +51,15 @@
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >Juniper Antares NFT // 22 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >NAMESAKE MIXED MEDIA COLLECTION</p>
 
           </div>
 
         </div>
-
+</a>
         
 
+     <a href="https://opensea.io/collection/uapnft" target="_blank">
 
          <div class="artbox" style="">
           <div class="art" style="">
@@ -64,14 +67,16 @@
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >UAP NFT // 22 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >UNIDENTIFIED AERIAL PHENOMENA</p>
 
           </div>
 
         </div>
 
+</a>
         
 
+     <a href="https://opensea.io/collection/blackholesnft" target="_blank">
 
          <div class="artbox" style="">
           <div class="art" style="">
@@ -79,13 +84,15 @@
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >Black Holes NFT // 30 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >ART COLLECTION BY SAWYER KOTOWSKI</p>
 
           </div>
 
         </div>
+</a>
 
         
+     <a href="https://opensea.io/collection/spectrumnft" target="_blank">
 
 
          <div class="artbox" style="">
@@ -94,11 +101,12 @@
           </div>
           <div class="artdesc" style="">
             <p style="margin:1rem;line-height:2rem;" >Spectrum NFT // 9 ITEM COLLECTION</p>
-            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >35MM FILM ORIGINALS BY REBECCA REID </p>
 
           </div>
 
         </div>
+</a>
 
         
 
