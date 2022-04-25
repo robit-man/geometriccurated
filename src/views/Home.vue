@@ -1,36 +1,110 @@
 <template>
   <div class="full-wrapper">
+      <div class="header-wrapper" style="margin-top:4rem;padding:2rem;display:flex;flex-flow:row;justify-content:space-between;">
 
-    <div class="hero" style="min-height:100vh; display:flex;flex-flow:column;justify-content:center;padding-top:4rem;padding-bottom:4rem;">
-      <div class="title" style=" margin:auto;text-align:center;font-size:7rem;margin-bottom:0rem;">
-      <h1><b style="font-size:12rem;line-height:0.8;">THE</b><br><b style="font-size:6rem;line-height:0.8;">CEDAR</b><br><b style="font-size:6rem;line-height:0.8;">BEARD</b><br><b style="font-size:3.1rem;line-height:0.8;">COLLECTION</b></h1>
+        <h3 style="letter-spacing:2px;font-size:48px;margin:auto;text-align:left;margin-left:2rem;">GEOMETRIC CURATED</h3>
+        
+        <div class="socials">
+          <a href="">
+            <img src="~/@/assets/twitter.svg" style="width:48px;height:48px;margin:1rem;" alt="">
+          </a>
+
+        </div>
       </div>
-      <div class="subtitle" style="margin:auto;margin-top:2rem;max-width:512px;padding-top:1rem;margin-bottom:0rem;">
-      <h3 style="text-align:center;width:512px;margin:auto;">A collection of original pieces manifested by Greg Cedarbeard</h3>
-      </div>
-      <div class="cta" style="margin:auto;margin-top:4rem;"><div class="button" style="border-radius:0.25rem;border:2px solid white;padding:0.5rem 1rem;"><h3>MANIFEST</h3></div></div>
-    
+
+      <div class="display-wrapper" style="display:flex;flex-flow:wrap;margin-top:2rem;">
+     
+        <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/XlTCNr7I3fQO5V42WqMRjl8KCS3NDT_EN9wOSrAr2e4Mxe6JnfBJMbeIEm_cZbkuutzWFSuEMxqJBVKw1aqEa62LRjVH1OYgDfRbjpk=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >Prism NFT // 100 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+
+
+         <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/t2k1xWOIDN6rUCoJQBjpMFCcuHaTprF-UMiGUtLiysHM_rshTT6ULZ4LucSCi8jnBrlSWkozavib1EPREZ4sF8-CSF7iAAmN52Segw=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >Lenses NFT // 50 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+        
+
+
+         <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/nHKrrxF-vt_ZA__1xk1SEBI3fAWVKR_JqSIVsLQtShNQMMjfZq15F4uSlZiK91siHFL3-nf7N6fC8dhlCbdvvYQw3yyduQ7SRWSYV90=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >Juniper Antares NFT // 22 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+        
+
+
+         <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/cj4qT5EqTtcEizkBVYwVtUuYTEnHpmWaojKV6FdWEexe_8G3oPpFRS8Nkui9yXMIH8wuvVDcm3STc-Y6YBS0Zi2dFnmUtOB5ad7fRw=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >UAP NFT // 22 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+        
+
+
+         <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/UtHNcQnO0KHJlCrcV1q3EDOz-iMV6gq6f4793vr7824keSGxGwzAxs2DZ9twmM9J5msMQh6jDmUpREsZ4OGizPseEfJhzbPhE9Ow=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >Black Holes NFT // 30 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+        
+
+
+         <div class="artbox" style="">
+          <div class="art" style="">
+            <img src="https://lh3.googleusercontent.com/zCKoOCzf3iRAOBTL3w9E7dIQSMM_qYPmeCNHjGNJHqu6rZvtz2VeFS0dvf5zzeEZJm6h3-Ibs5l4eW3g72lVJ7cNbqxjE4wW089-0A=w358" style="width:100%;height:100%;background:#e1e1e1;border:1px solid #1111;" alt="">
+          </div>
+          <div class="artdesc" style="">
+            <p style="margin:1rem;line-height:2rem;" >Spectrum NFT // 9 ITEM COLLECTION</p>
+            <p style="transform:rotate(180deg);margin:1rem;line-height:2rem;" >OWNED BY 0x21df121f3</p>
+
+          </div>
+
+        </div>
+
+        
+
+
+
     </div>
-
-
-
-
-    <div class="bio">
-
-      <div class="title">
-        <h1 style="text-align:center;">The Cedarbeard Lore</h1>
-      </div>
-      <div class="desc" style="padding-top:4rem;max-width:720px;margin:auto;">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      </div>
-      
-    </div>
-
-
-    <div class="row"></div>
-
-
 
     </div>
 </template>

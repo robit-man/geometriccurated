@@ -3,6 +3,8 @@
 @import './assets/fonts/iconfont.css';
 @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Marcellus+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 
 $primary: #fff;
 $secondary: #000;
@@ -22,14 +24,14 @@ $border: 1px solid $bg-color;
 
 html, body, #app {
   color: white;
-          font-family: 'Handlee', cursive;
+  font-family: 'Space Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
 
 }
-body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;  background-image:url('http://images6.fanpop.com/image/photos/37700000/magic-forest-beautiful-landscapes-37729163-1920-1200.jpg'),url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia1.tenor.com%2Fimages%2F749ed17c3eb5275da1f3156fd31cb5ae%2Ftenor.gif%3Fitemid%3D11651213&f=1&nofb=1');background-blend-mode:hard-light;
-  position:absolute;background-color:#422f01;}
+body{top:0px;left:0px;background-size:cover;background-position:top;width:100%;
+  position:absolute;background-color:#e1e1e1;}
 .logo-center-wrapper{
   margin-bottom:0.5rem;
   display:flex;
@@ -62,6 +64,9 @@ body{top:0px;left:0px;background-size:cover;background-position:top;width:100%; 
     &:hover{span{opacity:1;
     }}
   }
+  .art{width:calc(100% - 8rem);height:calc(100% - 8rem);margin:4rem;}
+  .display-wrapper{padding:2rem;width:100vw;}
+  .artbox{position:relative;margin:2rem;background:#e1e1e1;border-radius:1rem;box-shadow:5px 5px 20px #1111, -5px -5px 20px #fff8; width:calc(50vw - 6rem);height:calc(50vw - 6rem);}
 .logo-title{
   filter:invert(1);
   background-image:linear-gradient(45deg, transparent 0%, transparent 0.5rem, black 0.5rem, black calc(100% - 1.5rem), transparent calc(100% - 1.5rem));
@@ -74,8 +79,8 @@ body{top:0px;left:0px;background-size:cover;background-position:top;width:100%; 
 
   .data-title{ padding:1rem 0rem;  font-family: 'Space Mono', monospace!important;
     letter-spacing:1px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}.data-wrapper{width:512px;margin:auto;min-width:256px;}
-.full-wrapper{margin: auto;display:flex;flex-flow:column;overflow-y:auto;height:100vh;overflow-x:hidden;max-width: calc(100vw - 4rem);
-  background-image:radial-gradient(#33333349, rgba(0, 0, 0, 0.404));
+.full-wrapper{margin: auto;display:flex;flex-flow:column;overflow-y:auto;height:100vh;overflow-x:hidden;
+  
    }
 .copy-icon{clip-path: circle(50% at 50% 50%);
   position:absolute;
@@ -154,9 +159,9 @@ img{height:64px!important;margin:auto;margin-bottom:46px;}}
   min-height: 100vh;
   overflow: hidden;
 }
-h1{ font-size:3rem;  text-shadow:2px 2px black; font-family: 'Philosopher', sans-serif;}
-h2, h3 { font-size:2rem;text-shadow:2px 2px black;
-  font-family: 'Philosopher', sans-serif;
+h1{ font-size:3rem;     font-family: 'Maven Pro', sans-serif;}
+h2, h3 { font-size:2rem;
+     font-family: 'Maven Pro', sans-serif;
   font-weight:800;
 }
 .button {
@@ -494,8 +499,12 @@ input.input:read-only {
 
   p {
     max-width: 400px;
-    margin: 0 auto;
   }
+}
+
+
+.artdesc{
+  transform:rotate(90deg);color:#1115;position:absolute;left:0px;top:0px;width:100%;height:100%;display:flex;flex-flow:column;justify-content:space-between;text-align:center;
 }
 
 .hidden{display:none;}
