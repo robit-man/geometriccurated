@@ -2,7 +2,7 @@
   <div class="full-wrapper">
       <div class="header-wrapper" style="margin-top:4rem;padding:2rem;display:flex;flex-flow:row;justify-content:space-between;">
 
-        <h3 style="letter-spacing:2px;font-size:48px;margin:auto;text-align:left;margin-left:2rem;">GEOMETRIC CURATED</h3>
+        <h3 style="letter-spacing:2px;font-size:48px;font-weight:100;margin:auto;text-align:left;color:#d4d4d4;margin-left:2rem;text-shadow: 1px 1px #a1a1a1, 2px 2px #a1a1a1, 3px 3px #a1a1a1, 4px 4px #a1a1a1, 5px 5px #a1a1a1;">GEOMETRIC CURATED</h3>
         
         <div class="socials">
           <a href="">
